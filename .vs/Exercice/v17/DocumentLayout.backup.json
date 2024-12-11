@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\LEF\\Documents\\git\\Excercice\\Exercice\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{082FA5EB-6D05-4DE7-A616-2AD64CA67C92}|Exercice.csproj|c:\\users\\lef\\documents\\git\\excercice\\exercice\\basics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{082FA5EB-6D05-4DE7-A616-2AD64CA67C92}|Exercice.csproj|solutionrelative:basics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082FA5EB-6D05-4DE7-A616-2AD64CA67C92}|Exercice.csproj|c:\\users\\lef\\documents\\git\\excercice\\exercice\\exception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{082FA5EB-6D05-4DE7-A616-2AD64CA67C92}|Exercice.csproj|solutionrelative:exception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082FA5EB-6D05-4DE7-A616-2AD64CA67C92}|Exercice.csproj|c:\\users\\lef\\documents\\git\\excercice\\exercice\\array.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{082FA5EB-6D05-4DE7-A616-2AD64CA67C92}|Exercice.csproj|solutionrelative:array.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082FA5EB-6D05-4DE7-A616-2AD64CA67C92}|Exercice.csproj|c:\\users\\lef\\documents\\git\\excercice\\exercice\\exercice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{082FA5EB-6D05-4DE7-A616-2AD64CA67C92}|Exercice.csproj|solutionrelative:exercice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082FA5EB-6D05-4DE7-A616-2AD64CA67C92}|Exercice.csproj|c:\\users\\lef\\documents\\git\\excercice\\exercice\\fonction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{082FA5EB-6D05-4DE7-A616-2AD64CA67C92}|Exercice.csproj|solutionrelative:fonction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{082FA5EB-6D05-4DE7-A616-2AD64CA67C92}|Exercice.csproj|c:\\users\\lef\\documents\\git\\excercice\\exercice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{082FA5EB-6D05-4DE7-A616-2AD64CA67C92}|Exercice.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082FA5EB-6D05-4DE7-A616-2AD64CA67C92}|Exercice.csproj|c:\\users\\lef\\documents\\git\\excercice\\exercice\\algorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{082FA5EB-6D05-4DE7-A616-2AD64CA67C92}|Exercice.csproj|solutionrelative:algorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +38,99 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\LEF\\Documents\\git\\Excercice\\Exercice\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\LEF\\Documents\\git\\Excercice\\Exercice\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T07:31:17.203Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Fonction.cs",
+              "DocumentMoniker": "C:\\Users\\LEF\\Documents\\git\\Excercice\\Exercice\\Fonction.cs",
+              "RelativeDocumentMoniker": "Fonction.cs",
+              "ToolTip": "C:\\Users\\LEF\\Documents\\git\\Excercice\\Exercice\\Fonction.cs",
+              "RelativeToolTip": "Fonction.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T07:34:42.402Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Exercice.csproj",
+              "DocumentMoniker": "C:\\Users\\LEF\\Documents\\git\\Excercice\\Exercice\\Exercice.csproj",
+              "RelativeDocumentMoniker": "Exercice.csproj",
+              "ToolTip": "C:\\Users\\LEF\\Documents\\git\\Excercice\\Exercice\\Exercice.csproj",
+              "RelativeToolTip": "Exercice.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T07:40:18.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Array.cs",
+              "DocumentMoniker": "C:\\Users\\LEF\\Documents\\git\\Excercice\\Exercice\\Array.cs",
+              "RelativeDocumentMoniker": "Array.cs",
+              "ToolTip": "C:\\Users\\LEF\\Documents\\git\\Excercice\\Exercice\\Array.cs",
+              "RelativeToolTip": "Array.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAmwFQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T07:39:40.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Exception.cs",
+              "DocumentMoniker": "C:\\Users\\LEF\\Documents\\git\\Excercice\\Exercice\\Exception.cs",
+              "RelativeDocumentMoniker": "Exception.cs",
+              "ToolTip": "C:\\Users\\LEF\\Documents\\git\\Excercice\\Exercice\\Exception.cs",
+              "RelativeToolTip": "Exception.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAD4v2IAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T07:39:14.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Basics.cs",
+              "DocumentMoniker": "C:\\Users\\LEF\\Documents\\git\\Excercice\\Exercice\\Basics.cs",
+              "RelativeDocumentMoniker": "Basics.cs",
+              "ToolTip": "C:\\Users\\LEF\\Documents\\git\\Excercice\\Exercice\\Basics.cs",
+              "RelativeToolTip": "Basics.cs",
+              "ViewState": "AgIAAEIBAAAAAAAAAAAAwF8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T07:36:23.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Algorithm.cs",
+              "DocumentMoniker": "C:\\Users\\LEF\\Documents\\git\\Excercice\\Exercice\\Algorithm.cs",
+              "RelativeDocumentMoniker": "Algorithm.cs",
+              "ToolTip": "C:\\Users\\LEF\\Documents\\git\\Excercice\\Exercice\\Algorithm.cs",
+              "RelativeToolTip": "Algorithm.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAmwLUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T07:35:42.715Z"
             }
           ]
         }

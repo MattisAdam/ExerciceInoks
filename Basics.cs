@@ -1,4 +1,6 @@
-﻿namespace Exercice
+﻿using System.ComponentModel;
+
+namespace Exercice
 {
     public class ExcerciceBasic1_30
     {
@@ -288,5 +290,56 @@
             Console.Write($"{num}{num}{num} ");
             Console.WriteLine("");
         }
+        public static void Exo14()
+        {
+            /*Write a C# program to find the largest and lowest values from three integer values. */
+            Console.WriteLine("Write a C# program to find the largest and lowest values from three integer values. ");
+
+            int firstNumber = Fonction.EnterNumber("enter the first number");
+            int secondNumber = Fonction.EnterNumber("enter the second number");
+            int thirdNumber = Fonction.EnterNumber("enter the third number");
+
+            if (firstNumber >= secondNumber & firstNumber >= thirdNumber)
+            {
+                Console.WriteLine($"the largest number of three is {firstNumber}");
+            }
+            else
+            {
+                if (firstNumber < secondNumber & firstNumber < thirdNumber)
+                {
+                    Console.WriteLine($"the lowest number of three is {firstNumber}");
+                }
+            }
+            if (secondNumber > firstNumber & secondNumber > thirdNumber)
+            {
+                Console.WriteLine($"the largest number of three is {secondNumber}");
+            }
+            else
+            {
+                if (secondNumber < firstNumber & secondNumber < thirdNumber)
+                {
+                    Console.WriteLine($"the lowest number of three is {secondNumber}");
+                }
+            }
+            if (thirdNumber > firstNumber & thirdNumber > secondNumber)
+            {
+                Console.WriteLine($"the largest number of three is {thirdNumber}");
+            }
+            else
+            {
+                if (thirdNumber < firstNumber & thirdNumber < secondNumber)
+                {
+                    Console.WriteLine($"the lowest number of three is {thirdNumber}");
+                }
+            }
+
+            if(firstNumber == secondNumber & secondNumber == thirdNumber)
+            {
+                Console.WriteLine("we cannot find the largest number of three please retry");
+                Console.WriteLine();
+                Exo14();    
+            }
+
+            }
     }
 }

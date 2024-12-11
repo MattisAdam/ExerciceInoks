@@ -4,6 +4,10 @@
     {
         public static void MenuMain()
         {
+            Console.WriteLine("--------------------------");
+            Console.WriteLine("--------EXERCICE----------");
+            Console.WriteLine("--------------------------");
+            Console.WriteLine("");
             Console.WriteLine("Welcome !");
             while (true)
             {
@@ -16,14 +20,14 @@
                 Console.WriteLine(".3 ExerciceException1_13");
                 Console.WriteLine(".4 ExerciceArray");
                 Console.WriteLine(" ");
-                x = Fonction.EnterNumber("Exercice numero...");
+                x = Fonction.EnterNumber("Wich Exerice ?");
                 if (x <= 0 || x > numberExercice)
                 {
-                    Console.WriteLine(" !ERROR! take a choice between 1 and 3");
+                    Console.WriteLine($" (!ERROR!) take a choice between 1 and {numberExercice} ");
                 }
                 else
                 {
-                    Console.WriteLine("Numero Exercice ...");
+                    Console.WriteLine("Enter the number of the exerice you want");
                     y = Fonction.EnterNumber();
                 }
                 if (x == 1)
@@ -82,6 +86,10 @@
                             break;
                         case 13:
                             ExcerciceBasic1_30.Exo13();
+                            Console.WriteLine(" ");
+                            break;
+                        case 14:
+                            ExcerciceBasic1_30.Exo14();
                             Console.WriteLine(" ");
                             break;
 
