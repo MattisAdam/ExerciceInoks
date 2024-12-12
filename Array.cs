@@ -1,4 +1,5 @@
-﻿using System.Xml.Linq;
+﻿using System.Threading.Tasks.Sources;
+using System.Xml.Linq;
 
 namespace Exercice
 {
@@ -11,6 +12,7 @@ namespace Exercice
             int nmbRandom = 20;
             int[] check = new int[nmbRandom];
             Random rnd = new Random();
+            string correction = string.Empty;
 
             //dico avec nmb de fois la lettre, 1 si 0 et +1 si deja 1
 
@@ -18,13 +20,29 @@ namespace Exercice
             int x = Fonction.EnterNumber("Input the number of elements to be stored in the array");
             Console.WriteLine("");
             int[] tab = new int[x];
-
-
+            Console.WriteLine("Do u want to see the correction ? y/n");
+            correction = Fonction.EnterString("Enter y/n");
+            correction = correction.ToUpper();
             // init
             for (int i = 0; i < tab.Length; i++)
             {
                 element = rnd.Next(nmbRandom);
-                Console.WriteLine(element);
+                if (correction == "Y")
+                {
+                    Console.WriteLine(element);
+                }
+                else
+                {
+                    while ((correction != "Y") && (correction != "N"))
+                    {
+                        Console.WriteLine("Wrong input");
+                        Console.WriteLine("Do u want to see the correction ? y/n");
+                        correction = Fonction.EnterString("Enter y/n");
+                        correction = correction.ToUpper();
+
+                    }
+                }
+
                 tab[i] = element;
             }
 
@@ -32,19 +50,18 @@ namespace Exercice
             for (int i = 0; i < check.Length; i++)
             {
                 check[i] = 0;
+
                 //Console.WriteLine(check[i]);
             }
-
-
             for (int i = 0; i < tab.Length; i++)
             {
                 check[tab[i]] += 1;
             }
-
-            for (int y = 0; y < check.Length; y++)
+            for (int i = 0; i < check.Length; i++)
             {
-                Console.WriteLine($"{y} est representé {check[y]} de fois");
+                Console.WriteLine($"{i} est representé {check[i]} de fois");
             }
+
 
 
 
@@ -60,7 +77,7 @@ namespace Exercice
             for (int i = 0; i < tab.Length; i++)
             {
                 tab[i] = i + 1;
-                Console.WriteLine(tab[i]);
+                //Console.WriteLine(tab[i]);
             }
             while (check == false)
             {

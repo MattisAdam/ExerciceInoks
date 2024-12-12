@@ -299,7 +299,7 @@ namespace Exercice
             int secondNumber = Fonction.EnterNumber("enter the second number");
             int thirdNumber = Fonction.EnterNumber("enter the third number");
 
-            if (firstNumber >= secondNumber & firstNumber >= thirdNumber)
+            if (firstNumber > secondNumber & firstNumber > thirdNumber)
             {
                 Console.WriteLine($"the largest number of three is {firstNumber}");
             }

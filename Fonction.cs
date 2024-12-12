@@ -199,8 +199,9 @@
         public static int EnterNumber(string question = "Enter a number...", string messageError = "It's not a number, try again !")
         {
             while (true)
-            {
-                Console.WriteLine(question);
+            { 
+                Console.WriteLine();
+                Console.Write($"{question}   ");
                 string input = Console.ReadLine();
                 //another method in private 
                 if (int.TryParse(input, out int number))
@@ -216,7 +217,7 @@
 
         public static string EnterString(string question = "Enter a string...", string messageError = "It's not a string, try again !")
         {
-            Console.WriteLine("Enter a string");
+            Console.WriteLine(question);
             var x = Console.ReadLine();
 
             return x;
