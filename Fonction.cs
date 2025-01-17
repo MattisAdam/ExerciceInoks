@@ -128,6 +128,24 @@
                         case 7:
                             ExerciceBasicAlgorithm1_30.Exo7();
                             break;
+                        case 8:
+                            ExerciceBasicAlgorithm1_30.Exo8();
+                            break;
+                        case 9:
+                            ExerciceBasicAlgorithm1_30.Exo9();
+                            break;
+                        case 10:
+                            ExerciceBasicAlgorithm1_30.Exo10();
+                            break;
+                        case 11:
+                            ExerciceBasicAlgorithm1_30.Exo11();
+                            break;
+
+                        case 12:
+                            ExerciceBasicAlgorithm1_30.Exo12();
+                            break;
+
+
 
                     }
                 }
@@ -186,6 +204,10 @@
                         case 2: Array.Exo2(); Console.WriteLine(""); break;
                     }
                     break;
+                }
+                if (x == 5)
+                {
+                    ExerciceBasicAlgorithm1_30.Exo13();
                 }
 
             }
